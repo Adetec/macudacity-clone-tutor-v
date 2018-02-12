@@ -198,7 +198,8 @@ body {
 	left: 0;
 	bottom: 30px;
 	text-align: center;
-	min-width: 200px;
+	min-width: 250px;
+	margin: 5px;
 	z-index: 5;
 	background-color: rgba(197, 197, 197, 0.3);
 	border: 1px solid #92715d;
