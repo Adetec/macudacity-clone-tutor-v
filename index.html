@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Cairo:600|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Cookie" rel="stylesheet">
+	
+	
 </head>
 <body>
 
@@ -45,6 +48,7 @@
 			<div>
 				<a href="#" class="join-us">سجل اهتمامك!</a>
 			</div>
+
 		</div>
 	</div>
 
@@ -85,7 +89,14 @@
 		</div>
 
 	</div>
-
+	<div class="hello"><p>hello <span desc="Mister Mohammed Alhakem is the best tutor" id="visitor" class="tooltip"></span>, please hover your name</p></div>
 
 </body>
+	<script type="text/javascript">
+		var visitor = prompt("Please enter your name", "Harry");
+
+		if (visitor != null) {
+	    document.getElementById("visitor").innerHTML =visitor;
+		}
+	</script>
 </html>

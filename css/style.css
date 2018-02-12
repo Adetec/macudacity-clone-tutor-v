@@ -175,6 +175,39 @@ body {
 	color: #00aaf6;
 }
 
+.tooltip{
+	position: relative;
+	text-decoration: underline;
+	cursor: help;
+	color: #11b7e6;
+	
+}
+.hello{
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+	font-size: 24px;
+	font-family: 'Cookie', cursive;
+}
+.tooltip span{
+	font-family: 'Caveat', cursive;
+}
+.tooltip:hover::after{
+	content: attr(desc);
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	text-align: center;
+	min-width: 200px;
+	z-index: 5;
+	background-color: rgba(197, 197, 197, 0.3);
+	border: 1px solid #92715d;
+	border-radius: 10px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+	
+}
+
 
 
 
