@@ -134,3 +134,47 @@ body {
 .banner .join-us:active{
 	background: #204d74;
 }
+
+.section{
+	padding: 70px 0;
+	text-align: center;
+}
+
+.section h2{	
+	font-size: 35px;	
+	color: #333;
+}
+
+.underline::after{
+	content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+	background-color:#11b7e6;
+	margin: 4px auto 40px;
+}
+
+.section p{
+	max-width: 720px;
+	margin: 30px auto;
+}
+
+.info-list ul {
+	text-align: right;
+	list-style-type: circle;
+}
+
+.info-list ul li{
+	margin-bottom: 18px;
+	font-size: 14px;
+	color: #333;
+}
+
+.info-list li a{
+	text-decoration: none;
+	color: #00aaf6;
+}
+
+
+
+
