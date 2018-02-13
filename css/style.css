@@ -17,6 +17,7 @@ body {
 }
 
 .container{
+	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0px 15px;
 	box-sizing: border-box;
@@ -204,10 +205,56 @@ body {
 	border: 1px solid #92715d;
 	border-radius: 10px;
 	box-shadow: 0 0 15px rgba(0,0,0,0.3);
-
 	
 }
 
+.track{
+	width: 100%;
+	background: url(../images/track.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
 
+.track .track-desc{
+	
+	flex: 1;
+	text-align: right;
+	padding:0 15px;
+	
+}
 
+.track .container{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.track iframe{
+	width: 100%;
+	height: 360px;
+	border: none;
+}
+
+.track-desc h3, .track-desc h2, .track-desc p{
+	color: #fff;
+	margin: 0px;
+}
+
+.track-desc .underline::after{
+	margin: 15px 0px 30px;
+}
+
+.track-desc h3{
+	color: #11b7e6;
+	font-size: 40px;
+}
+
+.track-desc h2{
+	line-height: 42px;
+}
+
+.track-desc p{
+	font-size: 15px;
+}
 
