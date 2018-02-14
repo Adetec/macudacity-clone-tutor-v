@@ -258,3 +258,16 @@ body {
 	font-size: 15px;
 }
 
+.section > div:nth-of-type(even){
+	background: #fff;
+}
+
+.section > div:nth-of-type(even) h2,
+.section > div:nth-of-type(even) p{
+	color: #333;
+}
+
+.section > div:nth-of-type(even) .container{
+	flex-direction: row;
+}
+
