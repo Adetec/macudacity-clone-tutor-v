@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
 	margin: 0;
@@ -14,6 +17,7 @@ body {
 	box-shadow: 0 0 35px rgba(0,0,0,0.1);
 	position: fixed;
 	top: 0;
+	z-index: 100;
 }
 
 .container{
