@@ -283,3 +283,108 @@ body {
 	
 }
 
+.faq h2{
+	margin-top: 0;
+	font-size: 25px;
+}
+
+.faq .container{
+	text-align: right;
+}
+
+.accordion{
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.accordion label{
+	display: block;
+	padding: 10px 30px;
+	background-color: #fafafa;
+	border: 1px solid #eee;
+	font-size: 14px;
+	color: #333;
+	cursor: pointer;
+}
+
+.accordion .accordion-content {
+  border:1px solid #eee;
+  border-top:none;
+  overflow: hidden;
+  display: none;
+}
+
+.accordion p{
+	margin: 15px;
+	font-size: 14px;
+	color: #333;
+}
+
+input[type=checkbox]{
+	position: absolute;
+	display: none;
+}
+
+input[type=checkbox]:checked ~ .accordion-content {
+  display: block;
+}
+
+label::after{
+	content: "+";
+	position: absolute;
+	top: 9px;
+	right: 15px;
+	display: block;
+	width: 10px;
+	height: 10px;
+}
+
+input[type=checkbox]:checked ~ label::after {
+  content: "-";
+}
+
+#main-footer{
+	padding: 100px 0;
+	text-align: center;
+	background: #1c1c1c;
+    color: #fff;
+}
+
+#main-footer .underline::after{
+	width: 30px;
+}
+
+#main-footer p{
+	color: #bbb;
+	font-size: 14px;
+	margin: 6px 0;
+}
+
+#main-footer p a{
+	color: #bbb;
+	text-decoration: none;
+}
+
+#main-footer{
+	padding: 100px 0;
+	text-align: center;
+	background: #1c1c1c url(../images/map2.png) center 75% no-repeat ;
+	color: #fff;
+}
+
+#sub-footer{
+	padding: 2px 0;
+	background: #131313;
+	color: #ccc;
+	text-align: center;
+	border-top: 1px solid #323232;
+}
+#sub-footer p{
+	padding: 0;
+	font-size: 14px;
+}
+#sub-footer p a{
+	color: #bbb;
+	text-decoration: none;
+}
